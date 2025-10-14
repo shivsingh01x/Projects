@@ -1,0 +1,16 @@
+/* ****** Homepage Start ***** */
+/* Herovbanner start */
+.herobanner-parent{
+    background-image: url(Images/Herobanner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    max-width: 1600px;
+}
+
+.herobanner-child{
+    width:90%;
+}
+/* Herobanner end */
+/* ***** Homepage End ***** */
