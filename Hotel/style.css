@@ -1,3 +1,62 @@
+/* ***** Globall Start ***** */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Start */
+.header-parent{
+    max-width: 1600px;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-child{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.header-logo{
+    width: 150px;
+    /* background-color: red; */
+    margin-left: -25px;
+    filter: invert(1);
+}
+
+.header-nav{
+    display: flex;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.33);
+    padding:10px 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.header-nav li{
+    list-style-type: none;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Header End */
+
+/* Btnstyle01 start */
+.btn-style-01{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+}
+/* Btnstyle02 end */
+/* ***** Globall End ***** */
+
 /* ****** Homepage Start ***** */
 /* Herovbanner start */
 .herobanner-parent{
@@ -5,8 +64,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     max-width: 1600px;
+    margin-top: -100px;
+    padding-top: 100px;
 }
 
 .herobanner-child{
