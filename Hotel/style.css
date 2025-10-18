@@ -54,7 +54,7 @@ h5 {
 }
 
 h6 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Typography end */
@@ -283,4 +283,78 @@ h6 {
 }
 
 /* testimonial end */
+
+/* aboutus start */
+.aboutus-parent{
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(/Hotel/Images/IMG_20251018_075217.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+}
+
+.aboutus-child{
+    width: 90%;
+    padding: 5% 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus-01{
+    background-color: var(--secondary-color);
+    width: 35%;
+    padding: 3%;
+    display: flex;
+    align-items: end;
+    /* flex-direction: column; */
+    position: relative;
+}
+
+.aboutus-01 img{
+    position: absolute;
+    top: -30px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+}
+
+.aboutus-02{
+    background-color: var(--additional-color);
+    width: 35%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutus-01 h3{
+    text-transform: uppercase;
+}
+
+.aboutus-02 h3, .aboutus-p1{
+    color: var(--secondary-color);
+}
+
+.aboutus-p1{
+    font-weight: 700;
+}
+
+.aboutus-p2{
+    color: var(--text-color);
+}
+
+.aboutus-02 h3{
+    margin: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--secondary-color);
+    text-transform: uppercase;
+}
+.aboutus-02 h6{
+    color: var(--secondary-color);
+    margin: 0;
+}
+/* aboutus end */
 /* ***** Homepage End ***** */
