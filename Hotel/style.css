@@ -379,11 +379,11 @@ h6 {
     justify-content: center;
 }
 
-.featProperty-child h2{
+.featProperty-child h2 {
     color: var(--secondary-color);
 }
 
-.featProperty-cont h6{
+.featProperty-cont h6 {
     color: var(--primary-color);
 }
 
@@ -459,4 +459,86 @@ h6 {
 }
 
 /* featured Property End */
+
+/* number section start */
+.num-parent {}
+
+/* counter start */
+
+/* number section start */
+.num-parent {}
+
+/* counter start */
+.num-parent {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.num-parent::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #032a4cc7;
+    backdrop-filter: blur(5px);
+}
+
+.num-child {
+    width: 90%;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+.num-container {
+    display: flex;
+}
+
+.num-subchild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2%;
+}
+
+.num-border {
+    border-right: 1px solid #ffffff27;
+}
+
+.num-subchild h3 {
+    text-align: center;
+}
+
+.num-last h3 {
+    text-align: left;
+    font-size: 40px;
+    margin: 0;
+}
+
+.num-subchild p {
+    text-align: center;
+    color: var(--additional-color);
+}
+
+.num-parent button {
+    margin-top: 20px;
+}
+
+/* counter end */
+/* number section end */
+
 /* ***** Homepage End ***** */
