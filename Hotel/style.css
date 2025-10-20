@@ -225,7 +225,7 @@ h6 {
     position: relative;
 }
 
-.testimonial-parent::after{
+.testimonial-parent::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -244,10 +244,12 @@ h6 {
     gap: 40px;
     z-index: 2;
 }
-.testimonial-row-02 h6{
+
+.testimonial-row-02 h6 {
     margin-bottom: 5px;
 }
-.testimonial-row-02{
+
+.testimonial-row-02 {
     display: flex;
     gap: 20px;
     justify-content: end;
@@ -256,7 +258,7 @@ h6 {
     align-self: flex-end;
 }
 
-.testimonial-tab{
+.testimonial-tab {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -267,25 +269,25 @@ h6 {
     border-radius: 5px;
 }
 
-.testimonial-tab img{
+.testimonial-tab img {
     width: 40px;
     height: 40px;
     object-fit: cover;
 }
 
-.testimonial-row-01 h6{
+.testimonial-row-01 h6 {
     /* color: var(--accent-color); */
     margin-bottom: 5px;
 }
 
-.testimonial-tab p{
+.testimonial-tab p {
     color: var(--additional-color);
 }
 
 /* testimonial end */
 
 /* aboutus start */
-.aboutus-parent{
+.aboutus-parent {
     max-width: 1600px;
     display: flex;
     justify-content: center;
@@ -296,14 +298,14 @@ h6 {
     height: 100vh;
 }
 
-.aboutus-child{
+.aboutus-child {
     width: 90%;
     padding: 5% 0 0;
     display: flex;
     justify-content: center;
 }
 
-.aboutus-01{
+.aboutus-01 {
     background-color: var(--secondary-color);
     width: 35%;
     padding: 3%;
@@ -313,7 +315,7 @@ h6 {
     position: relative;
 }
 
-.aboutus-01 img{
+.aboutus-01 img {
     position: absolute;
     top: -30px;
     width: 100px;
@@ -321,7 +323,7 @@ h6 {
     background-color: var(--primary-color);
 }
 
-.aboutus-02{
+.aboutus-02 {
     background-color: var(--additional-color);
     width: 35%;
     padding: 3%;
@@ -330,31 +332,56 @@ h6 {
     gap: 20px;
 }
 
-.aboutus-01 h3{
+.aboutus-01 h3 {
     text-transform: uppercase;
 }
 
-.aboutus-02 h3, .aboutus-p1{
+.aboutus-02 h3,
+.aboutus-p1 {
     color: var(--secondary-color);
 }
 
-.aboutus-p1{
+.aboutus-p1 {
     font-weight: 700;
 }
 
-.aboutus-p2{
+.aboutus-p2 {
     color: var(--text-color);
 }
 
-.aboutus-02 h3{
+.aboutus-02 h3 {
     margin: 0;
     padding-bottom: 15px;
     border-bottom: 1px solid var(--secondary-color);
     text-transform: uppercase;
 }
-.aboutus-02 h6{
+
+.aboutus-02 h6 {
     color: var(--secondary-color);
     margin: 0;
 }
+
 /* aboutus end */
+
+/* featured Property Start */
+.featProperty-parent{
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.featProperty-child {
+    width: 90%;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featProperty-child h2{
+    color: var(--secondary-color);
+}
+
+/* featured Property End */
 /* ***** Homepage End ***** */
