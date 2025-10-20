@@ -364,11 +364,11 @@ h6 {
 /* aboutus end */
 
 /* featured Property Start */
-.featProperty-parent{
+.featProperty-parent {
     max-width: 1600px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
 .featProperty-child {
@@ -381,6 +381,81 @@ h6 {
 
 .featProperty-child h2{
     color: var(--secondary-color);
+}
+
+.featProperty-cont h6{
+    color: var(--primary-color);
+}
+
+.featProperty-child p {
+    color: var(--text-color);
+}
+
+.featProperty-cont {
+    display: flex;
+    padding-top: 3%;
+    column-gap: 2.5%;
+}
+
+.fp-box {
+    width: 32%;
+
+}
+
+.fp-imgbox-1,
+.fp-imgbox-2,
+.fp-imgbox-3 {
+    background-size: cover;
+    background-position: center center;
+    aspect-ratio: 3/2;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+.fp-imgbox-1::after,
+.fp-imgbox-2::after,
+.fp-imgbox-3:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    top: -18px;
+    left: -18px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    rotate: 45deg;
+}
+
+.fp-imgbox-1::before,
+.fp-imgbox-2::before,
+.fp-imgbox-3::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    bottom: -18px;
+    right: -18px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    rotate: 45deg;
+}
+
+
+.fp-imgbox-1 {
+    background-image: url(/Hotel/Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg);
+}
+
+.fp-imgbox-2 {
+    background-image: url(/Hotel/Images/Herobanner.jpeg);
+}
+
+.fp-imgbox-3 {
+    background-image: url(/Hotel/Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg);
+}
+
+.fp-contbox h6 {
+    margin-bottom: 5px;
 }
 
 /* featured Property End */
