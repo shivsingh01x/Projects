@@ -111,6 +111,7 @@ h6 {
     border-radius: 20px;
     border: none;
     background-color: #fff;
+    margin-top: 20px;
 }
 
 .btn-style-02 {
@@ -119,6 +120,7 @@ h6 {
     border: 1px solid #fff;
     background-color: #ffffff00;
     color: #fff;
+    margin-top: 20px;
 }
 
 /* Btnstyle02 end */
@@ -461,14 +463,6 @@ h6 {
 /* featured Property End */
 
 /* number section start */
-.num-parent {}
-
-/* counter start */
-
-/* number section start */
-.num-parent {}
-
-/* counter start */
 .num-parent {
     max-width: 1600px;
     display: flex;
@@ -534,11 +528,86 @@ h6 {
     color: var(--additional-color);
 }
 
-.num-parent button {
-    margin-top: 20px;
-}
-
-/* counter end */
 /* number section end */
 
+/* showcase start */
+.showcase-parent {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    margin-top: 9%;
+}
+
+.showcase-child {
+    width: 90%;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-first {
+    display: flex;
+    gap: 5%;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.showcase-fir-img {
+    background-image: url(Images/Herobanner.jpeg);
+    aspect-ratio: 3/2;
+    width: 55%;
+    margin-top: -13%;
+}
+
+.showcase-fir-content {
+    width: 45%;
+}
+
+
+.showcase-second {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-sec-img {
+    width: 100%;
+    aspect-ratio: 3/1.7;
+    background-image: url(Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+}
+
+.showcase-sec-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.showcase-sec-cont::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 80px;
+    top: -50%;
+    left: 50%;
+    background-color: #ffffff94;
+}
+
+
+.showcase-sec-cont p {
+    text-align: center;
+}
+
+/* showcase end */
 /* ***** Homepage End ***** */
