@@ -115,6 +115,8 @@ h6 {
   margin-top: 20px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  transition: .5s ease-in-out;
 }
 
 .btn-style-01::after{
@@ -122,9 +124,9 @@ h6 {
   content: "";
   bottom: -50px;
   left: 0;
-  height: 50px;
+  height: 80px;
   width: 1200px;
-  z-index: 9;
+  z-index: -1;
   background-image: url(/Hotel/Images/cloud-black-icon.png);
   background-size: contain;
   background-repeat: repeat-x;
@@ -132,12 +134,6 @@ h6 {
   transition: .8s ease-in-out;
 }
 
-.btn-style-01:hover:after{
-  bottom: -20px;
-  transition: .8s ease-in-out;
-}
-
-/* Define the animation keyframes */
 @keyframes waveanimate {
   0% {
     transform: translatex(0px);
@@ -146,6 +142,20 @@ h6 {
     transform: translateX(-120px);
   }
 }
+
+
+.btn-style-01:hover:after{
+  bottom: -20px;
+  transition: .8s ease-in-out;
+}
+
+.btn-style-01:hover{
+  background: transparent;
+  color: var(--additional-color);
+  border: 1px solid var(--primary-color);
+  transition: .5s ease-in-out;
+}
+
 
 
 .btn-style-02 {
@@ -322,16 +332,6 @@ a:hover{
   object-fit: cover;
 }
 
-.testimonial-row-01 h6 {
-  /* color: var(--accent-color); */
-  margin-bottom: 5px;
-}
-
-.testimonial-tab p {
-  color: var(--additional-color);
-}
-
-/* testimonial end */
 
 /* aboutus start */
 .aboutus-parent {
