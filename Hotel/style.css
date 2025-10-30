@@ -640,7 +640,7 @@ a:hover {
 
 
 /* partner's section start */
-.in-section {
+.logo-section {
     text-align: center;
     padding: 60px 20px;
     background-color: #ffffff;
@@ -648,7 +648,7 @@ a:hover {
     margin: 50px auto;
 }
 
-.in-title {
+.logo-title {
     font-family: 'Arial', sans-serif;
     font-size: 0.8em;
     color: #888888;
