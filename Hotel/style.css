@@ -639,22 +639,15 @@ a:hover {
 
 
 /* partner's section start */
-.in-parent {
-  max-width: 1600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.in-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 50px auto;
 }
 
-.in-child{
-  width: 90%;
-  padding: 5% 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.in-title {
+.logo-title {
     font-family: 'Arial', sans-serif;
     font-size: 0.8em;
     color: #888888;
