@@ -576,7 +576,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   background-image: url(Images/Herobanner.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -640,12 +639,19 @@ a:hover {
 
 
 /* partner's section start */
-.in-section {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #ffffff;
-    max-width: 1200px;
-    margin: 50px auto;
+.in-parent {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-child{
+  width: 90%;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .in-title {
@@ -656,6 +662,7 @@ a:hover {
     text-transform: uppercase;
     margin-bottom: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 .logo-grid {
@@ -717,7 +724,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   background-image: url(Images/Herobanner.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
