@@ -638,6 +638,79 @@ a:hover {
 }
 /* why work with us end */
 
+
+/* partner's section start */
+.in-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.in-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.8em;
+    color: #888888;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.logo-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px; /* Spacing between logos */
+}
+
+.logo-item {
+    width: 100px; 
+    height: 30px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    opacity: 0.7; /* Subtly faded appearance */
+    transition: opacity 0.3s ease;
+}
+
+.logo-item:hover {
+    opacity: 1; /* Full visibility on hover */
+}
+
+.logo-huffpost {
+    background-image: url('Images/HUFF.jpg');
+}
+
+.logo-biz-insider {
+    background-image: url('Images/Business.jpg');
+}
+
+.logo-bloomberg {
+    width: 120px; 
+    background-image: url('Images/Bloomberg.jpg');
+}
+
+.logo-cnbc {
+    background-image: url('Images/cnbc.jpg');
+}
+
+.logo-bbc {
+    width: 80px;
+    height: 35px;
+    background-image: url('Images/bbc.jpg');
+}
+
+.logo-ft {
+    background-image: url('Images/ft.jpg');
+}
+
+/* partner's section end */
+
+
 /* testimonial section start */
 .testi-parent{
   max-width: 1600px;
