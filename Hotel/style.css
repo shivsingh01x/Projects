@@ -975,6 +975,7 @@ a:hover {
 
 .cta-button {
     width: 100%;
+    padding: 10px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
