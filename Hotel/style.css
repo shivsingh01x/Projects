@@ -712,9 +712,72 @@ a:hover {
   color: var(--primary-color);
   text-align: center;
 }
-
 /* why work with us end */
 
+/* testimonial section start */
+.testi-parent{
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background-image: url(Images/Herobanner.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.testi-parent::after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffffcf;
+}
+
+.testi-child{
+  width: 90%;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.testi-child h2{
+  text-align: center;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.testi-cont{
+  display: flex;
+  gap: 20px;
+}
+
+.testi-sub-cont{
+  background-color: var(--secondary-color);
+  padding: 5%;
+}
+
+.testi-sub-cont h5{
+  text-align: center;
+}
+
+.testi-sub-cont p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testi-sub-cont h6{
+  text-align: center;
+}
+
+
+/* testimonial section end */
 
 /* Call to action start */
 .cta-form-parent {
