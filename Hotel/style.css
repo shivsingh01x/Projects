@@ -648,31 +648,34 @@ a:hover {
 /* showcase end */
 
 /* Call to action start */
-.cta-parent {
+.cta-form-parent {
+  max-width: 1600px;
   display: flex;
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-.cta-child {
-  flex: 1.5;
-  padding: 0;
-  min-height: 550px;
+.cta-form-child {
+  width: 90%;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
 }
 
-.cta-child img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+
+.cta-image {
+  background-image: url('Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg'); 
+  background-size: cover;
+  background-position:top center;
+  background-repeat: no-repeat;
+  width: 50%;
 }
 
-.cta-form-parent {
+.form-section {
   flex: 1;
   background-color: #002244;
-  padding: 60px 50px;
+  padding: 50px 40px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -690,42 +693,6 @@ a:hover {
   opacity: 0.7;
   margin-bottom: 40px;
   font-size: 14px;
-}
-
-.cta-form-parent form {
-  width: 100%;
-}
-
-.cta-container {
-    display: flex;
-    width: 100%; 
-    max-width: 1200px;
-    margin: 50px auto;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    min-height: 550px;
-}
-
-.image-section {
-    flex: 1.5;
-    min-height: 550px;
-    background-image: url('Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.form-section {
-    flex: 1;
-    background-color: #002244;
-    padding: 50px 40px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-}
-
-.contact-form {
-    width: 100%;
 }
 
 .form-title {
