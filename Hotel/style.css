@@ -569,80 +569,101 @@ a:hover {
 /* number section end */
 
 /* showcase start */
-.showcase-parent {
-  max-width: 1600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--secondary-color);
-  margin-top: 9%;
+:root {
+    --main-teal: #004c50; 
+    --divider-pink: #d08c85;    
+    --teal-text: #054e50;   
 }
 
-.showcase-child {
-  width: 90%;
-  padding: 5% 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.navigation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--grid-bg);
 }
 
-.showcase-first {
-  display: flex;
-  gap: 5%;
-  align-items: flex-start;
-  width: 80%;
+.grid-item {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 0; 
+   
+    background-image: url('Images/Luxury-bed.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.showcase-fir-img {
-  background-image: url(Images/Herobanner.jpeg);
-  aspect-ratio: 3/2;
-  width: 55%;
-  margin-top: -13%;
+.grid-item:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.showcase-fir-content {
-  width: 45%;
+.grid-item::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Overlay layer */
 }
 
-.showcase-second {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.dark-teal {
+    color: #fff; /* White Text */
+}
+.dark-teal::before {
+    background-color: rgba(0, 76, 80, 0.90); 
 }
 
-.showcase-sec-img {
-  width: 100%;
-  aspect-ratio: 3/1.7;
-  background-image: url(Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-top: 5%;
+.faded-light {
+    color: var(--teal-text); /* Dark Teal Text */
+}
+.faded-light::before {
+    background-color: rgba(255, 255, 255, 0.88); 
 }
 
-.showcase-sec-cont {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40%;
-  margin-top: 40px;
-  position: relative;
+.icon, .title, .subtitle, .divider {
+    z-index: 2;
 }
 
-.showcase-sec-cont::after {
-  position: absolute;
-  content: "";
-  width: 1px;
-  height: 80px;
-  top: -50%;
-  left: 50%;
-  background-color: #ffffff94;
+.icon {
+    font-size: 2.5em;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+.dark-teal .icon { color: #fff; }
+.faded-light .icon { color: var(--teal-text); }
+
+.title {
+    font-size: 1.1em;
+    font-weight: 700; /* Title is BOLDER */
+    margin: 0;
+    letter-spacing: 2px;
 }
 
-.showcase-sec-cont p {
-  text-align: center;
+.subtitle {
+    font-size: 1.1em;
+    font-weight: 400; 
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 1;
+}
+
+.divider {
+    width: 60px;
+    height: 2px;
+    background-color: var(--divider-pink); /* #d08c85 */
+    margin-top: 15px;
 }
 /* showcase end */
 
