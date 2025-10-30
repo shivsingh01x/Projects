@@ -696,7 +696,53 @@ a:hover {
   width: 100%;
 }
 
+.cta-container {
+    display: flex;
+    width: 100%; 
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    min-height: 550px;
+}
+
+.image-section {
+    flex: 1.5;
+    min-height: 550px;
+    background-image: url('Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-section {
+    flex: 1;
+    background-color: #002244;
+    padding: 50px 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.form-subtitle {
+    opacity: 0.7;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
 .cta-input {
+<<<<<<< HEAD
   width: 100%;
   height: 30px;
   margin-bottom: 10px;
@@ -711,14 +757,33 @@ a:hover {
 
 .cta-message{
   height: 100px;
+=======
+    width: 100%;
+    height: 40px; 
+    margin-bottom: 25px; 
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 0;
+    transition: border-bottom-color 0.3s;
+>>>>>>> refs/remotes/origin/main
 }
 
+.cta-textarea {
+    width: 100%; 
+    height: 100px;
+    padding-top: 10px;
+    resize: none;
+}
 .cta-input::placeholder {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 300;
 }
 
 .cta-input:focus {
+<<<<<<< HEAD
   outline: none;
   border-bottom: 2px solid #fff; /* Focus par line thick aur bright white */
 }
@@ -740,6 +805,31 @@ a:hover {
   background-color: #fff; /* White background */
   color: #002244; /* Dark blue text */
   border-color: #fff;
+=======
+    outline: none;
+    border-bottom: 2px solid #fff; 
+}
+
+.cta-button {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    background-color: transparent; 
+    color: #fff;
+    border: 1px solid #fff; 
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #fff; 
+    color: #002244; 
+    border-color: #fff;
+>>>>>>> refs/remotes/origin/main
 }
 /* call to action end */
 
