@@ -639,12 +639,21 @@ a:hover {
 
 
 /* partner's section start */
-.in-section {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #ffffff;
-    max-width: 1200px;
-    margin: 50px auto;
+.in-parent{
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.in-child{
+  width: 90%;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
 }
 
 .logo-title {
@@ -966,16 +975,6 @@ a:hover {
 
 .cta-button {
     width: 100%;
-    padding: 15px 0;
-    margin-top: 20px;
-    background-color: transparent; 
-    color: #fff;
-    border: 1px solid #fff; 
-    font-size: 16px;
-    letter-spacing: 2px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
