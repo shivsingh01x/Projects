@@ -29,7 +29,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 15px;
   color: var(--additional-color);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -245,10 +244,6 @@ a:hover {
   z-index: 2;
 }
 
-.testimonial-row-02 h6 {
-  margin-bottom: 5px;
-}
-
 .testimonial-row-02 {
   display: flex;
   gap: 20px;
@@ -339,7 +334,6 @@ a:hover {
 }
 
 .aboutus-02 h3 {
-  margin: 0;
   padding-bottom: 15px;
   border-bottom: 1px solid var(--secondary-color);
   text-transform: uppercase;
@@ -347,8 +341,7 @@ a:hover {
 
 .aboutus-02 h6 {
   color: var(--secondary-color);
-  margin: 0;
-}
+ }
 
 /* aboutus end */
 
@@ -396,7 +389,6 @@ a:hover {
   background-size: cover;
   background-position: center center;
   aspect-ratio: 3/2;
-  margin-bottom: 15px;
   position: relative;
 }
 
@@ -423,7 +415,7 @@ a:hover {
   height: 30px;
   bottom: -18px;
   right: -18px;
-  background-color:var(--additional-color);
+  background-color: var(--additional-color);
   z-index: 1;
   rotate: 45deg;
 }
@@ -438,10 +430,6 @@ a:hover {
 
 .fp-imgbox-3 {
   background-image: url(/Hotel/Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg);
-}
-
-.fp-contbox h6 {
-  margin-bottom: 5px;
 }
 
 /* featured Property End */
@@ -504,7 +492,6 @@ a:hover {
 .num-last h3 {
   text-align: left;
   font-size: 40px;
-  margin: 0;
 }
 
 .num-subchild p {
@@ -551,7 +538,6 @@ a:hover {
   width: 45%;
 }
 
-
 .showcase-second {
   width: 80%;
   display: flex;
@@ -587,7 +573,6 @@ a:hover {
   left: 50%;
   background-color: #ffffff94;
 }
-
 
 .showcase-sec-cont p {
   text-align: center;
@@ -647,7 +632,6 @@ a:hover {
 .work-sub-cont h5 {
   color: var(--secondary-color);
   text-align: center;
-  margin-bottom: -5px;
   text-transform: uppercase;
 }
 
@@ -685,7 +669,6 @@ a:hover {
   color: var(--text-color);
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-bottom: 40px;
   font-weight: bold;
   text-align: center;
 }
@@ -777,7 +760,6 @@ a:hover {
 .testi-child h2 {
   text-align: center;
   color: var(--secondary-color);
-  margin-bottom: 30px;
 }
 
 .testi-cont {
@@ -796,7 +778,6 @@ a:hover {
 
 .testi-sub-cont p {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .testi-sub-cont h6 {
@@ -874,7 +855,6 @@ a:hover {
 .icon {
   font-size: 2.5em;
   line-height: 1;
-  margin-bottom: 5px;
 }
 .dark-teal .icon {
   color: var(--additional-color);
@@ -886,14 +866,14 @@ a:hover {
 .title {
   font-size: 1.1em;
   font-weight: 700; /* Title is BOLDER */
-  margin: 0;
+
   letter-spacing: 2px;
 }
 
 .subtitle {
   font-size: 1.1em;
   font-weight: 400;
-  margin: 0;
+
   letter-spacing: 2px;
   opacity: 1;
 }
@@ -942,34 +922,29 @@ a:hover {
 
 .cta-form-parent h2 {
   font-size: 28px;
-  margin-bottom: 10px;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
 .cta-form-parent p {
   opacity: 0.7;
-  margin-bottom: 40px;
   font-size: 14px;
 }
 
 .form-title {
   font-size: 28px;
-  margin-bottom: 10px;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
 .form-subtitle {
   opacity: 0.7;
-  margin-bottom: 30px;
   font-size: 14px;
 }
 
 .cta-input {
   width: 100%;
   height: 40px;
-  margin-bottom: 25px;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
