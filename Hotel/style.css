@@ -6,11 +6,12 @@
 
 /* globall colors start */
 :root {
-  --primary-color: #007bff;
-  --secondary-color: #032a4c;
-  --text-color: #2e2d2a;
-  --accent-color: #1c1c1c;
+  --primary-color: #b19e80;
+  --secondary-color: #021526;
+  --text-color: #373737;
+  --accent-color: #deeefe;
   --additional-color: #ffffff;
+  --light-gold: #f3f2ed;
 }
 
 /* globall colors end */
