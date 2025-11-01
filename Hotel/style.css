@@ -8,7 +8,7 @@
 :root {
   --primary-color: #b19e80;
   --secondary-color: #021526;
-  --text-color: #373737;
+  --text-color: #000000;
   --accent-color: #deeefe;
   --additional-color: #ffffff;
   --light-gold: #f3f2ed;
@@ -20,10 +20,12 @@
 p {
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  line-height: 1.8;
+  font-weight: 500;
+  line-height: 2em;
   color: var(--additional-color);
-  
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+
 }
 
 h1,
@@ -34,8 +36,8 @@ h5,
 h6 {
   color: var(--additional-color);
 
-    font-family: 'Cormorant Garamond', 'Playfair Display', serif;
-    font-weight: 600;
+  font-family: "PT Sans", sans-serif;
+    font-weight: 200;
     letter-spacing: 0.05em;
     text-transform: uppercase;
   
@@ -194,7 +196,7 @@ a:hover {
 
 .countdown-child {
   width: 90%;
-  padding: 10% 0 5%;
+  padding: 5% 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,6 +206,7 @@ a:hover {
 .countdown-child h2{
   text-align: center;
   padding:0 15%;
+  color: var(--secondary-color);
 }
 
 .countdown-container {
@@ -219,16 +222,17 @@ a:hover {
 }
 
 .cd-border {
-  border-right: 1px solid #ffffff27;
+  border-right: 1px solid var(--primary-color);
 }
 
 .countdown-subchild h3 {
   text-align: center;
+  color: var(--primary-color);
 }
 
 .countdown-subchild p {
   text-align: center;
-  color: var(--additional-color);
+  color: var(--text-color);
 }
 
 /* counter end */
@@ -341,13 +345,13 @@ a:hover {
   text-transform: uppercase;
 }
 
-.aboutus-02 h3,
-.aboutus-p1 {
+.aboutus-02 h3{
   color: var(--secondary-color);
 }
 
 .aboutus-p1 {
   font-weight: 700;
+  color: var(--text-color);
 }
 
 .aboutus-p2 {
@@ -356,12 +360,12 @@ a:hover {
 
 .aboutus-02 h3 {
   padding-bottom: 15px;
-  border-bottom: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--text-color);
   text-transform: uppercase;
 }
 
 .aboutus-02 h6 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
  }
 
 /* aboutus end */
@@ -516,6 +520,7 @@ a:hover {
 
 .num-subchild h3 {
   text-align: center;
+  color: var(--primary-color);
 }
 
 .num-last h3 {
