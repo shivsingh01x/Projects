@@ -554,14 +554,14 @@ a:hover {
   display: flex;
   gap: 5%;
   align-items: flex-start;
-  width: 80%;
+ 
 }
 
 .showcase-fir-img {
   background-image: url(Images/Herobanner.jpeg);
   aspect-ratio: 3/2;
   width: 55%;
-  margin-top: -13%;
+  margin-top: -11%;
 }
 
 .showcase-fir-content {
@@ -571,7 +571,7 @@ a:hover {
 }
 
 .showcase-second {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
