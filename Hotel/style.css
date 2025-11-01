@@ -232,7 +232,7 @@ a:hover {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: var(--accent-color);
+  background-color: #2e2d2a3f;
 }
 
 .testimonial-child {
@@ -513,6 +513,87 @@ a:hover {
 }
 
 /* number section end */
+
+/* showcase start */
+.showcase-parent {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  margin-top: 9%;
+}
+
+.showcase-child {
+  width: 90%;
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase-first {
+  display: flex;
+  gap: 5%;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.showcase-fir-img {
+  background-image: url(Images/Herobanner.jpeg);
+  aspect-ratio: 3/2;
+  width: 55%;
+  margin-top: -13%;
+}
+
+.showcase-fir-content {
+  width: 45%;
+}
+
+
+.showcase-second {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showcase-sec-img {
+  width: 100%;
+  aspect-ratio: 3/1.7;
+  background-image: url(Images/LSX-045-Fess-BAcker-Double-Tree-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+}
+
+.showcase-sec-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-top: 40px;
+  position: relative;
+}
+
+.showcase-sec-cont::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 80px;
+  top: -50%;
+  left: 50%;
+  background-color: #ffffff94;
+}
+
+
+.showcase-sec-cont p {
+  text-align: center;
+}
+
+/* showcase end */
 
 /* why work with us start */
 .work-parent {
