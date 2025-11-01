@@ -91,8 +91,7 @@ h6 {
 }
 
 .header-nav {
-  display: flex;
-  gap: 20px;
+  display: flex; 
   background-color: rgba(0, 0, 0, 0.128);
   padding: 10px 20px;
   border-radius: 20px;
@@ -187,7 +186,6 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .countdown-container {
@@ -253,7 +251,6 @@ a:hover {
 
 .testimonial-row-02 {
   display: flex;
-  gap: 20px;
   justify-content: end;
   align-items: end;
   width: 80%;
@@ -320,7 +317,6 @@ a:hover {
   padding: 3%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .aboutus-01 h3 {
@@ -636,7 +632,6 @@ a:hover {
 .work-sub-cont {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   margin-top: 20px;
 }
 
@@ -775,12 +770,13 @@ a:hover {
 
 .testi-cont {
   display: flex;
-  gap: 20px;
 }
 
 .testi-sub-cont {
   background-color: var(--secondary-color);
   padding: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 .testi-sub-cont h5 {
@@ -1033,7 +1029,7 @@ a:hover {
 .footer-menu {
   width: 45%;
   display: flex;
-  gap: 20px;
+ 
 }
 
 .footer-menu-1 {
