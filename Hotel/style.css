@@ -122,10 +122,17 @@ h6 {
   transition: 0.5s ease-in-out;
 }
 
-.btn-style-01::after {
-  position: absolute;
+.btn-style-02{
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--additional-color);
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  width: fit-content;
 }
-/* h2headingLRspaceend */
 
 /* link styling start */
 a {
@@ -186,6 +193,11 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.countdown-child h2{
+  text-align: center;
+  padding:0 15%;
 }
 
 .countdown-container {
@@ -978,6 +990,7 @@ a:hover {
 }
 
 .cta-button {
+  margin-top: 20px;
   width: 100%;
   padding: 10px;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
