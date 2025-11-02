@@ -617,7 +617,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(Images/Herobanner.jpeg);
+  /* background-image: url(Images/Herobanner.jpeg); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -682,6 +682,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--light-gold);
 }
 
 .in-child {
@@ -690,7 +691,13 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  gap: 20px;
   z-index: 1;
+}
+
+.in-title{
+  color: var(--secondary-color);
 }
 
 .logo-title {
@@ -712,7 +719,7 @@ a:hover {
 }
 
 .logo-item {
-  width: 100px;
+  width: 150px;
   height: 30px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -760,7 +767,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(Images/Herobanner.jpeg);
+  /* background-image: url(Images/Herobanner.jpeg); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -822,6 +829,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--light-gold);
 }
 
 .navigation-grid {
