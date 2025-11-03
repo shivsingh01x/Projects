@@ -1029,20 +1029,20 @@ a:hover {
 
 /* frequently asked questions start */
 :root {
-    --primary-text-color: #fcfcfc;  /* Near White */
-    --secondary-text-color: #c9c9c9;  /* Light Grey */
-    --accent-color: #e6b882;  /* Muted Gold/Bronze color */
-    --overlay-color: rgba(0, 0, 0, 0.5);  /* 50% Black Overlay */
+    --primary-text-color: #fcfcfc; /* Near White */
+    --secondary-text-color: #c9c9c9; /* Light Grey */
+    --accent-color: #e6b882; /* Muted Gold/Bronze color */
+    --overlay-color: rgba(0, 0, 0, 0.5); /* 50% Black Overlay */
     --font-serif: 'Times New Roman', serif; 
 }
 
 .faq-hero-section {
     position: relative;
     padding: 100px 20px;
-    height: 100vh;  /* Full viewport height for dramatic effect */
+    height: 100vh; /* Full viewport height for dramatic effect */
     display: flex;
     justify-content: center;
-    align-items: flex-start;  /* Start content near the top/center */
+    align-items: flex-start; /* Start content near the top/center */
     overflow: hidden;
 }
 
@@ -1080,7 +1080,7 @@ a:hover {
 .faq-sub-heading {
     font-family: var(--font-serif);
     font-size: 0.9em;
-    color: var(--accent-color);  /* Gold color */
+    color: var(--accent-color); /* Gold color */
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -1119,8 +1119,8 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-top: 10px;
+  
 }
-
 .faq-question::-webkit-details-marker,
 .faq-question::marker {
     display: none;
@@ -1151,15 +1151,21 @@ a:hover {
 }
 
 .faq-answer {
-    padding: 20px 0 30px; 
+    /* Height is now controlled by JavaScript */
+    height: auto; 
+    /* The key to smoothness! */
+    transition: height 0.4s ease-in-out; 
+  
+    padding: 0 0 30px; 
     font-family: Arial, sans-serif;
     color: var(--secondary-text-color); 
     text-align: left;
-    max-width: 90%; 
+    max-width: 90%;
     margin: 0 auto 0 50px; 
     border: 1px solid rgba(255, 255, 255, 0.2); 
     padding: 20px;
     line-height: 1.8;
+    overflow: hidden; /* Essential: Hides content when height is 0 */
 }
 
 .faq-answer p {
