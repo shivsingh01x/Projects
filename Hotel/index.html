@@ -407,51 +407,80 @@
 
     <!-- frequently asked questions start -->
     <section class="faq-hero-section">
-    <div class="hero-overlay"></div>
-    <div class="faq-content-wrapper">
-        
-        <p class="faq-sub-heading">FAQ</p>
-        <h2 class="faq-main-heading">COMMONLY ASKED<br>INQUIRIES?</h2>
-        
-        <details class="faq-item" open>
-            <summary class="faq-question">
-                <span class="custom-marker">*</span> MAY I PLACE MULTIPLE OFFERS FOR PROPERTIES AT ONCE?
-            </summary>
-            <div class="faq-answer">
-                <p>Elementum facilisis leo Vel fringilla Est Ut ullamcorper Eget nulla facilisi. Viverra accumsan in Nisl nisi Scelerisque eu. Faucibus interdum Posuere Lorem ipsum dolor sit Amet consectetur adipiscing Id interdum Donec.</p>
-            </div>
-        </details>
+        <div class="hero-overlay"></div>
+        <div class="faq-content-wrapper">
 
-        <details class="faq-item">
-            <summary class="faq-question">
-                <span class="custom-marker">*</span> HOW DO I CANCEL MY OFFER TO PURCHASE?
-            </summary>
-            <div class="faq-answer">
-                <p>Each purchase agreement has specific cancellation clauses. Typically, you can cancel within a defined inspection period. Please review your contract details or contact your agent immediately for guidance on legal processes and potential financial implications.</p>
-            </div>
-        </details>
+            <p class="faq-sub-heading">FAQ</p>
+            <h2 class="faq-main-heading">COMMONLY ASKED<br>INQUIRIES?</h2>
 
-        <details class="faq-item">
-            <summary class="faq-question">
-                <span class="custom-marker">*</span> HOW WILL YOU REFUND MY ESCROW DEPOSIT?
-            </summary>
-            <div class="faq-answer">
-                <p>Refunds of the escrow deposit are managed by the closing attorney or title company, following the terms of the purchase contract. If the sale is canceled according to the contract's contingency clauses, the funds are typically returned via wire transfer within 5-10 business days.</p>
-            </div>
-        </details>
+            <details class="faq-item" open>
+                <summary class="faq-question">
+                    <span class="custom-marker">*</span> MAY I PLACE MULTIPLE OFFERS FOR PROPERTIES AT ONCE?
+                </summary>
+                <div class="faq-answer">
+                    <p>Elementum facilisis leo Vel fringilla Est Ut ullamcorper Eget nulla facilisi. Viverra accumsan in
+                        Nisl nisi Scelerisque eu. Faucibus interdum Posuere Lorem ipsum dolor sit Amet consectetur
+                        adipiscing Id interdum Donec.</p>
+                </div>
+            </details>
 
-        <details class="faq-item">
-            <summary class="faq-question">
-                <span class="custom-marker">*</span> WHAT TYPES OF PROPERTIES DO YOU SPECIALIZE IN?
-            </summary>
-            <div class="faq-answer">
-                <p>We specialize in luxury residential real estate, including single-family homes, high-end condominiums, and new construction developments in the metropolitan area. Our focus ensures expert knowledge in premium market segments.</p>
-            </div>
-        </details>
+            <details class="faq-item">
+                <summary class="faq-question">
+                    <span class="custom-marker">*</span> HOW DO I CANCEL MY OFFER TO PURCHASE?
+                </summary>
+                <div class="faq-answer">
+                    <p>Each purchase agreement has specific cancellation clauses. Typically, you can cancel within a
+                        defined inspection period. Please review your contract details or contact your agent immediately
+                        for guidance on legal processes and potential financial implications.</p>
+                </div>
+            </details>
 
-    </div>
-</section>
-    <!-- frequently asked questions end -->
+            <details class="faq-item">
+                <summary class="faq-question">
+                    <span class="custom-marker">*</span> HOW WILL YOU REFUND MY ESCROW DEPOSIT?
+                </summary>
+                <div class="faq-answer">
+                    <p>Refunds of the escrow deposit are managed by the closing attorney or title company, following the
+                        terms of the purchase contract. If the sale is canceled according to the contract's contingency
+                        clauses, the funds are typically returned via wire transfer within 5-10 business days.</p>
+                </div>
+            </details>
+
+            <details class="faq-item">
+                <summary class="faq-question">
+                    <span class="custom-marker">*</span> WHAT TYPES OF PROPERTIES DO YOU SPECIALIZE IN?
+                </summary>
+                <div class="faq-answer">
+                    <p>We specialize in luxury residential real estate, including single-family homes, high-end
+                        condominiums, and new construction developments in the metropolitan area. Our focus ensures
+                        expert knowledge in premium market segments.</p>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(currentItem => {
+            currentItem.addEventListener('toggle', () => {
+                // Check if the current item is being opened
+                if (currentItem.open) {
+                    // Loop through all items
+                    faqItems.forEach(itemToClose => {
+                        // Close all other items, but skip the current item
+                        if (itemToClose !== currentItem && itemToClose.open) {
+                            itemToClose.open = false;
+                        }
+                    });
+                }
+            });
+        });
+    });
+</script>
+<!-- frequently asked questions end -->
     
     <!-- footer start -->
     <div class="footer-parent">
